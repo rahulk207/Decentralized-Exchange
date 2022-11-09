@@ -54,7 +54,7 @@ export const NETWORKS = {
     chainId: 5,
     faucet: "https://goerli-faucet.slock.it/",
     blockExplorer: "https://goerli.etherscan.io/",
-    rpcUrl: `https://eth-goerli.g.alchemy.com/v2/mMO5_mdvdQcCU8BmhkIoc11mh1d9SRWk`,
+    rpcUrl: `https://eth-goerli.g.alchemy.com/v2/${process.env.REACT_APP_ALCHEMY_GOERLI_KEY}`,
   },
   xdai: {
     name: "xdai",
